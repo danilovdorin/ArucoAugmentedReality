@@ -1,9 +1,13 @@
 # ArucoAugmentedReality
 
 Sample programs for OpenCV and Swift and iOS .
+I'm trying to make augmented reality demo project with simple 3d object in center of marker.
 
-![Screenshot on iOS](Screenshot_ios.jpg)
+without success.
 
+![Screenshot on iOS](IMG_1871.png)
+
+video on youtube with problem: [https://www.youtube.com/watch?v=DF9JPv35XzE](https://www.youtube.com/watch?v=DF9JPv35XzE)
 
 ## OpenCV
 
