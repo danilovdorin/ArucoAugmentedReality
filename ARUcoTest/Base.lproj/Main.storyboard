@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,20 +26,20 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </sceneKitView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Fb-7A-yOM">
-                                <rect key="frame" x="191" y="427" width="184" height="240"/>
+                                <rect key="frame" x="0.0" y="20" width="150" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="184" id="2qf-U8-skv"/>
-                                    <constraint firstAttribute="height" constant="240" id="JRb-X4-Cmq"/>
+                                    <constraint firstAttribute="width" constant="150" id="2qf-U8-skv"/>
+                                    <constraint firstAttribute="height" constant="200" id="JRb-X4-Cmq"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ZQu-1z-UIs" firstAttribute="trailing" secondItem="gv0-XP-ZYl" secondAttribute="trailing" id="2Nw-iP-pPd"/>
-                            <constraint firstItem="5Fb-7A-yOM" firstAttribute="bottom" secondItem="ZQu-1z-UIs" secondAttribute="bottom" id="AiT-xH-mwp"/>
                             <constraint firstItem="D9V-Ob-WJo" firstAttribute="leading" secondItem="ZQu-1z-UIs" secondAttribute="leading" id="ES5-0V-hbP"/>
+                            <constraint firstItem="5Fb-7A-yOM" firstAttribute="leading" secondItem="ZQu-1z-UIs" secondAttribute="leading" id="GGt-mT-9QP"/>
+                            <constraint firstItem="5Fb-7A-yOM" firstAttribute="top" secondItem="ZQu-1z-UIs" secondAttribute="top" id="JYm-GC-mu8"/>
                             <constraint firstItem="ZQu-1z-UIs" firstAttribute="trailing" secondItem="D9V-Ob-WJo" secondAttribute="trailing" id="MHf-Tj-h9c"/>
-                            <constraint firstItem="5Fb-7A-yOM" firstAttribute="trailing" secondItem="ZQu-1z-UIs" secondAttribute="trailing" id="YDE-wn-dJf"/>
                             <constraint firstItem="gv0-XP-ZYl" firstAttribute="top" secondItem="ZQu-1z-UIs" secondAttribute="top" id="c7g-Id-1b5"/>
                             <constraint firstItem="gv0-XP-ZYl" firstAttribute="leading" secondItem="ZQu-1z-UIs" secondAttribute="leading" id="d18-gS-fie"/>
                             <constraint firstItem="D9V-Ob-WJo" firstAttribute="top" secondItem="ZQu-1z-UIs" secondAttribute="top" id="ndP-Nf-cw2"/>
