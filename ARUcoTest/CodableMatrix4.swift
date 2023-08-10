@@ -10,8 +10,6 @@ import Foundation
 import UIKit
 import SceneKit
 
-//comment 222
-
 struct SceneObject: Codable {
     let m11: Float
     let m12: Float
